@@ -15,7 +15,7 @@ crash.log
 crash.*.log
 
 # Exclude all variable files by default as they typically contain secrets
-*.tfvars
+
 *.tfvars.json
 
 # Ignore override files as they are used locally to override resources
@@ -44,3 +44,7 @@ C:\aws_with_terraform_april_batch\Day-04\remote-exec\.terraform.lock.hcl
 C:\aws_with_terraform_april_batch\Day-04\file-provisnors\custom-key.pem
 C:\aws_with_terraform_april_batch\Day-04\local-provisioner\.terraform.lock.hcl
 C:\aws_with_terraform_april_batch\Day-04\file-provisnors\.terraform.lock.hcl
+
+C:\aws_with_terraform_april_batch\workspace\.terraform.lock.hcl
+
+C:\aws_with_terraform_april_batch\workspace\.terraform
