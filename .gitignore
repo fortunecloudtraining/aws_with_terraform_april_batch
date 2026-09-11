@@ -48,3 +48,6 @@ C:\aws_with_terraform_april_batch\Day-04\file-provisnors\.terraform.lock.hcl
 C:\aws_with_terraform_april_batch\workspace\.terraform.lock.hcl
 
 C:\aws_with_terraform_april_batch\workspace\.terraform
+C:\aws_with_terraform_april_batch\environments\Storage\S3\dev\.terraform
+C:\aws_with_terraform_april_batch\environments\Storage\S3\dev\.terraform.lock.hcl
+environments/Storage/S3/dev/.terraform.lock.hcl
