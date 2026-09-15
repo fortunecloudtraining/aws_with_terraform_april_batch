@@ -51,3 +51,9 @@ C:\aws_with_terraform_april_batch\workspace\.terraform
 C:\aws_with_terraform_april_batch\environments\Storage\S3\dev\.terraform
 C:\aws_with_terraform_april_batch\environments\Storage\S3\dev\.terraform.lock.hcl
 environments/Storage/S3/dev/.terraform.lock.hcl
+
+C:\aws_with_terraform_april_batch\environments\Networking\VPC\dev\.terraform
+
+C:\aws_with_terraform_april_batch\environments\Networking\VPC\dev\.terraform.lock.hcl
+
+C:\aws_with_terraform_april_batch\environments\Networking\VPC\dev\.terraform.lock.hcl
