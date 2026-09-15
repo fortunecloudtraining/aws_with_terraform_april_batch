@@ -1,0 +1,11 @@
+vpc_name="tf_vpc_fctp"
+vpc_cidr = "10.0.0.0/16"
+Environment = "dev"
+enable_dns_hostnames=true
+enable_dns_support = true
+public_subnet_01_cidr="10.0.11.0/24"
+public_subnet_01_name="public_subnet_01_tf"
+private_subnet_01_cidr="10.0.1.0/24"
+private_subnet_01_name="private_subnet_01"
+igw_name = "fctp_igw"
+public_rt_name="public_rt_tf"
