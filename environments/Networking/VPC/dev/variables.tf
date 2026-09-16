@@ -42,3 +42,7 @@ variable "igw_name" {
 variable "public_rt_name" {
   
 }
+
+variable "private_rt_name" {
+  
+}
