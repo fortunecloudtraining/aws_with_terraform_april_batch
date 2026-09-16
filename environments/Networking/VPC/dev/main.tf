@@ -14,4 +14,5 @@ source = "../../../../modules/Networking/VPC"
   private_subnet_01_name = var.private_subnet_01_name
   igw_name = var.igw_name
   public_rt_name = var.public_rt_name
+  private_rt_name = var.private_rt_name
 }
