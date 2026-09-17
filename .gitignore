@@ -60,3 +60,6 @@ C:\aws_with_terraform_april_batch\environments\Networking\VPC\dev\.terraform.loc
 
 C:\aws_with_terraform_april_batch\environments\Compute\EC2\dev\.terraform
 C:\aws_with_terraform_april_batch\environments\Compute\EC2\dev\.terraform.lock.hcl
+C:\aws_with_terraform_april_batch\environments\Networking\VPC\dev\.terraform
+C:\aws_with_terraform_april_batch\environments\Networking\VPC\qa\.terraform
+C:\aws_with_terraform_april_batch\environments\Networking\VPC\uat\.terraform
