@@ -43,3 +43,49 @@ variable "public_rt_name" {
 variable "private_rt_name" {
   
 }
+
+
+variable "subnet_availability_zone_01" {
+  
+}
+
+variable "public_subnet_cidr_02" {
+  
+}
+
+variable "subnet_availability_zone_02" {
+  
+}
+
+variable "public_subnet_02_name" {
+  
+}
+
+
+variable "public_subnet_cidr_03" {
+  
+}
+
+variable "subnet_availability_zone_03" {
+  
+}
+
+variable "public_subnet_03_name" {
+  
+}
+
+variable "private_subnet_cidr_02" {
+  
+}
+
+variable "private_subnet_02_name" {
+  
+}
+
+variable "private_subnet_cidr_03" {
+  
+}
+
+variable "private_subnet_03_name" {
+  
+}
