@@ -1,23 +1,70 @@
-vpc_name="tf_vpc_fctp"
+# vpc_name="tf_vpc_fctp"
+# vpc_cidr = "10.0.0.0/16"
+# Environment = "dev"
+# enable_dns_hostnames=true
+# enable_dns_support = true
+# public_subnet_01_cidr="10.0.11.0/24"
+# public_subnet_01_name="public_subnet_01_tf"
+# private_subnet_01_cidr="10.0.1.0/24"
+# private_subnet_01_name="private_subnet_01_tf"
+# igw_name = "fctp_igw"
+# public_rt_name="public_rt_tf"
+# private_rt_name="private_rt_tf"
+# subnet_availability_zone_01="ap-south-1a"
+# public_subnet_cidr_02="10.0.2.0/24"
+# subnet_availability_zone_02="ap-south-1b"
+# public_subnet_02_name="public_subnet_02_tf"
+# public_subnet_cidr_03="10.0.5.0/24"
+# subnet_availability_zone_03="ap-south-1c"
+# public_subnet_03_name="public_subnet_03_tf"
+# private_subnet_cidr_02="10.0.6.0/24"
+# private_subnet_02_name="private_subnet_02_tf"
+# private_subnet_cidr_03="10.0.7.0/24"
+# private_subnet_03_name="private_subnet_03_tf"
+
+
+#################################################
+# ENVIRONMENT
+#################################################
+
+environment = "dev"
+
+#################################################
+# PROJECT
+#################################################
+
+project_name = "prod-web-app"
+
+#################################################
+# NETWORKING
+#################################################
+
 vpc_cidr = "10.0.0.0/16"
-Environment = "dev"
-enable_dns_hostnames=true
-enable_dns_support = true
-public_subnet_01_cidr="10.0.11.0/24"
-public_subnet_01_name="public_subnet_01_tf"
-private_subnet_01_cidr="10.0.1.0/24"
-private_subnet_01_name="private_subnet_01_tf"
-igw_name = "fctp_igw"
-public_rt_name="public_rt_tf"
-private_rt_name="private_rt_tf"
-subnet_availability_zone_01="ap-south-1a"
-public_subnet_cidr_02="10.0.2.0/24"
-subnet_availability_zone_02="ap-south-1b"
-public_subnet_02_name="public_subnet_02_tf"
-public_subnet_cidr_03="10.0.5.0/24"
-subnet_availability_zone_03="ap-south-1c"
-public_subnet_03_name="public_subnet_03_tf"
-private_subnet_cidr_02="10.0.6.0/24"
-private_subnet_02_name="private_subnet_02_tf"
-private_subnet_cidr_03="10.0.7.0/24"
-private_subnet_03_name="private_subnet_03_tf"
+
+availability_zones = [
+  "ap-south-1a",
+  "ap-south-1b",
+  "ap-south-1c"
+]
+
+#################################################
+# PUBLIC SUBNETS
+#################################################
+
+public_subnets = [
+  "10.0.1.0/24",
+  "10.0.2.0/24",
+  "10.0.3.0/24"
+]
+
+#################################################
+# PRIVATE SUBNETS
+#################################################
+
+private_subnets = [
+  "10.0.11.0/24",
+  "10.0.12.0/24",
+  "10.0.13.0/24"
+]
+cluster_name      = "dev-eks-cluster"
+admin_access_cidr = "0.0.0.0/0"
